@@ -1,0 +1,49 @@
+h1{
+    color: red; /*asi se pone un cometario*/
+    background-color: yellow; /*color d e fondo*/
+    text-align: center; /*centar*/
+    text-transform: uppercase; /*pasa a mayusculas*/
+
+}
+h2{
+    color: blue;
+    text-align: left;
+    
+}
+p{color: brown;}
+
+.destacados{color: orange;
+font-weight: bold;
+font-style: italic;
+font-size: 22px;
+}
+
+#rojo{
+    width: 350px;
+    height: 250px;
+    background-color: red;
+    padding: 20px; /*separacion de borde al contenido, margenes de arriba e izq*/
+    box-sizing: border-box;
+    border: 5px solid black;
+    margin-left: 150px;
+}
+
+
+
+
+#azul{
+    width: 350px;
+    height: 250px;
+    background-color: blue;
+
+    padding: 20px; /*todos iguales*/
+    padding: 10px 20px; /*10 arriba y abajo 20 derecha e izq*/
+    padding: 10px 20px 5px; /*10 arriba 5 abajo y laterales = en 20*/
+    padding: 10px 15px 20px 25px; /*como las agujas del reloj*/
+}
+
+#rojo p,
+#azul p {color: white;}
+
+
+
