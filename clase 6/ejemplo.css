@@ -1,0 +1,31 @@
+/**
+font-family: "Open Sans", sans-serif;
+font-family: "Pacifico", cursive;
+**/
+
+
+.texto {
+    background-color: yellow;
+    column-count: 3;
+    column-gap: 60px;
+    column-rule: 3px solid black;
+}
+
+.texto p {box-shadow: -31px 10px 5px 0px rgba(160, 142, 142, 0.75); /** esto lo tome de generador de css **/
+    margin: 0;
+
+}
+
+h1,
+h2 {
+    font-family: "Pacifico", cursive;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
+.iconos{
+    font-size: 200px;
+    color: aqua;
+}

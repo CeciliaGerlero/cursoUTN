@@ -1,0 +1,30 @@
+#contenedor {
+    background-color: blue;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.verde {
+    background-color: greenyellow;
+    width: 70%;
+    margin: 0 auto;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.celeste {
+    background-color: lightblue;
+    width: 70%;
+    margin: 0 auto;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+
+.amarillo {
+    background-color: lightyellow;
+    width: 70%;
+    margin: 0 auto;
+    height: 200px;
+     margin-bottom: 20px;
+}
