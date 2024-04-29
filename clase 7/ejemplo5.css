@@ -1,0 +1,25 @@
+.contenedor{
+    background-color: gray;
+   display: inline-flex; 
+   flex-wrap: wrap;
+   height: 600px;
+   align-content: flex-start;
+   align-content: flex-end;
+   align-content: center;
+   align-content: space-between;
+   align-content: space-around;
+   align-content: space-evenly;
+
+}
+
+.item{
+background-color: blueviolet;
+width: 300px;
+height: 100px;
+color: white;
+font-size: 30px;
+margin: 10px;
+
+
+}
+
