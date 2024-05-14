@@ -1,6 +1,6 @@
 body {
     background-color: #332f29;
-
+    /* pinta de marron oscuro el fond0 */
 }
 
 .contenedor {
@@ -13,14 +13,26 @@ body {
 header {
     background-color: #8fa68e;
     padding: 20px;
+    /* tamaño de la cabecera */
 }
 
 .holder {
+    display: flex;
     background-color: #c0392b;
 
 }
 
+nav {
+    background-color: #c0392b;
+    width: 30px;
+}
+
 nav ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -45,11 +57,15 @@ footer {
     text-align: center;
 }
 
+
+/* lo siguiente se podria poner en otro css  */
+
 @media screen and (max-width: 480px) {
 
-    /* aca van las reglas q cambian las columnas */
+    /* aca van las reglas q cambian las columnas. Cundo es de 0 a 480 se toma de una forma si es más queda otra opcion*/
     header {
         text-align: center;
+        /* pongo en titulo en el medio */
     }
 
 
@@ -63,8 +79,9 @@ footer {
     }
 
     nav ul {
+        /*  pongo uno al lado del otro */
         display: flex;
-        background-color: #1abc9c;
+        /* background-color: #1abc9c; */
         justify-content: space-between;
         margin: 0;
         padding: 0;
@@ -84,4 +101,5 @@ footer {
         display: none;
     }
 }
-/*fin del media 480 */
+
+/* fin del media 480 */
