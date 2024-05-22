@@ -8,4 +8,7 @@ const producto = valor1 * valor2;
 
 console.log(suma);
 console.log(suma2);
-console.log(producto);
+console.log(producto)
+
+
+ 
