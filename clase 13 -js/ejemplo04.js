@@ -6,7 +6,8 @@ const numeros =[12,35,46,22,88];
 console.log(frutas);
 console.log(numeros);
 
-console.log(frutas.length);
+console.log(frutas.length); 
+
 console.log(numeros.length);
 
 console.log(frutas[1])
