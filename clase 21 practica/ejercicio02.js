@@ -10,3 +10,5 @@ for(let i=0; i< numeros.length; i++){
         mayor=numeros[i]
     }
 }
+
+console.log(`El número mayor entre los siguientes números: ${numeros} es ${mayor}`)
